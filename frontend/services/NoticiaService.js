@@ -1,7 +1,7 @@
 class NoticiaService {
 
     constructor() {
-        this.URI = `:4000/api/v2/noticia`;
+        this.URI = `/api/v2/noticia`;
     }
 
     async getNoticias() {

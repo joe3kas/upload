@@ -1,7 +1,7 @@
 class DocenteService {
 
     constructor() {
-        this.URI = `:4000/api/v2/docente`;
+        this.URI = `/api/v2/docente`;
     }
 
     async getDocentes() {
