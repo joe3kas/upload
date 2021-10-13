@@ -1,7 +1,7 @@
 class SliderService {
 
     constructor() {
-        this.URI = `http://localhost:4000/api/v2/slider`;
+        this.URI = `http://ec2-54-215-64-77.us-west-1.compute.amazonaws.com/:4000/api/v2/slider`;
     }
 
     async getSliders() {

@@ -16,7 +16,7 @@ class UI {
       <div class="card m-2">
         <div class="row no-gutters">
             <div class="col-md-4">
-                <img src="http://localhost:4000${slider.image}" class="img-fluid" alt="">
+                <img src="http://ec2-54-215-64-77.us-west-1.compute.amazonaws.com/:4000${slider.image}" class="img-fluid" alt="">
             </div>
             <div class="col-md-8">
                 <div class="card-block px-2">
