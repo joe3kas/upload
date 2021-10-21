@@ -33,6 +33,8 @@ app.use('/api/v2/book', require('./routes/books'));
 app.use('/api/v2/slider', require('./routes/sliders'));
 app.use('/api/v2/docente', require('./routes/docentes'));
 app.use('/api/v2/noticia', require('./routes/noticias'));
+app.use('/api/v2/cuadro', require('./routes/cuadros'));
+app.use('/api/v2/4ll', require('./routes/todo'));
 
 // static files
 app.use(express.static(path.join(__dirname, 'public')));

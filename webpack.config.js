@@ -9,7 +9,8 @@ module.exports = {
     book: './frontend/appBook.js',
     slider: './frontend/appSlider.js',
     docente: './frontend/appDocente.js',
-    noticia: './frontend/appNoticia.js'
+    noticia: './frontend/appNoticia.js',
+    cuadro: './frontend/appCuadro.js'
   },
   mode: 'development',
   output: {
@@ -71,6 +72,19 @@ module.exports = {
       filename: 'noticia.html',
       template: './frontend/noticia.html',
       chunks: ['noticia'],
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'cuadro.html',
+      template: './frontend/cuadro.html',
+      chunks: ['cuadro'],
       minify: {
         collapseWhitespace: true,
         removeComments: true,
